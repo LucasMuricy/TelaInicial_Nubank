@@ -48,6 +48,40 @@
 
         </TextView>
 
+        <ImageView
+            android:id="@+id/IcEyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_eye"
+            app:layout_constraintStart_toEndOf="@id/containerCirculo"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+
+            android:id="@+id/IcQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_question"
+            app:layout_constraintStart_toEndOf="@id/IcEyo"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+
+            android:id="@+id/IcPersonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_person_add"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/IcQuestion"></ImageView>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
