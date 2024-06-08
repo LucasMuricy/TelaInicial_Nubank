@@ -65,10 +65,12 @@
             android:id="@+id/IcQuestion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
             android:src="@drawable/ic_question"
+            android:layout_marginTop="60dp"
             app:layout_constraintStart_toEndOf="@id/IcEyo"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/IcPersonAdd"
+        >
 
         </ImageView>
 
@@ -77,10 +79,14 @@
             android:id="@+id/IcPersonAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
             android:src="@drawable/ic_person_add"
-            app:layout_constraintStart_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/IcQuestion"></ImageView>
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintStart_toEndOf="@id/IcQuestion"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            ></ImageView>
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
